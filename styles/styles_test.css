@@ -1,0 +1,8 @@
+/* styles/styles.css — your own external stylesheet */
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #26332d; background: #f4f6f3; line-height: 1.6; }
+header { background: #173c2e; color: white; padding: 28px; border-bottom: 6px solid #d7a93b; }
+header h1 { margin: 0; }
+main { width: 90%; max-width: 900px; margin: 30px auto; background: white; padding: 24px; border-radius: 8px; }
+h2 { color: #173c2e; }
+a { color: #225c44; }
+footer { background: #20252b; color: white; text-align: center; padding: 18px; }

@@ -1,0 +1,5 @@
+/* WP9 custom CSS: loaded after Bootstrap */
+body { background-color: #f4f6f3; color: #26332d; }
+h1, .card h3 { color: #173c2e; }
+.card { border: 1px solid #d7ded9; }
+.card-img-top { height: 190px; object-fit: cover; }

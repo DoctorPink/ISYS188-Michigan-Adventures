@@ -1,0 +1,73 @@
+/* SHARED STYLES: WP9, WP10 and dropdown demo */
+/* Load this file AFTER Bootstrap 5.3.8. */
+:root { --forest: #173c2e; --gold: #d7a93b; }
+body { background-color: #f4f6f3; color: #26332d; }
+h1, .card h3 { color: var(--forest); }
+.card { border: 1px solid #d7ded9; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+.card-img-top { height: 190px; object-fit: cover; }
+/* WP10 header and footer; harmless on WP9 which does not have these elements. */
+.site-navbar { background-color: var(--forest); }
+.site-navbar .navbar-brand, .site-navbar .nav-link { color: rgb(236, 17, 17); }
+.site-navbar .nav-link:hover, .site-navbar .nav-link:focus { color: #f3d47c; }
+.site-footer { background-color: #20252b; color: white; }
+/* Dropdown demo: the menu uses Bootstrap behavior, with our custom colors. */
+.site-navbar .dropdown-menu { border: 2px solid var(--gold); }
+.site-navbar .dropdown-item:hover, .site-navbar .dropdown-item:focus { background-color: #eef4f0; color: var(--forest); }
+
+ .navbar-dark {
+   background-color:purple !important;
+  }
+
+  /*.red_background {
+    background-color: red;
+  }
+  */
+.btn-success {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ee1da8 !important;
+  --bs-btn-border-color: #198754;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #43dddf;
+  --bs-btn-hover-border-color: #146c43;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ee1da8;
+  --bs-btn-active-border-color: #13653f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); 
+}
+
+/*  
+style="font-family:'Brush Script MT', cursive, fantasy; 
+font-size: 4rem;" 
+*/
+h1 {
+  font-family:'Brush Script MT', cursive, fantasy; 
+  font-size: 4rem;
+}
+ 
+/* Style ONLY the paragraphs where class="lead" */ 
+p.lead {
+  font-size: 2.25rem;
+  font-weight: 300;
+  color:#ee1da8;
+}
+
+.adventures_logo {
+  height: 40px; 
+  width: auto;
+}
+
+
+li.nav-item { 
+  /* list-style:circle;
+  color:#e4fa1a ;
+  */
+  list-style:none;
+}
+
+.nav-link {
+  color:#e4fa1a;
+}
+.nav-link:hover {
+  color:#60f0f7;
+}
